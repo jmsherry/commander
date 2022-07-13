@@ -2,7 +2,7 @@
 
 ## Get Started
 
-```javascript
+```shell
 node decorate.js help
 ```
 
@@ -10,6 +10,6 @@ node decorate.js help
 
 ## Example usage
 
-```javascript
+```shell
 node balls.js decorate boris.txt boris --cocks
 ```
