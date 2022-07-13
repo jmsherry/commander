@@ -1,5 +1,5 @@
-const { Command } = require("commander");
-const fs = require("fs");
+import { Command } from "commander";
+import fs from "fs";
 
 const ASCII_ART = Object.freeze({
   TITS: Object.freeze([`( • )( • ) `, ` ( • )( • )`]),
