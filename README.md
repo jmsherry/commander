@@ -16,5 +16,5 @@ node decorate.js help
 ## Example usage
 
 ```shell
-node balls.js decorate boris.txt boris --cocks
+node decorate.js decorate boris.txt boris --cocks
 ```
