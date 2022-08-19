@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var shell = require('shelljs');
 
 if (!shell.which('git')) {
