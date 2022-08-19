@@ -4,7 +4,7 @@ import { Command } from "commander";
 import fs from "fs";
 
 const ASCII_ART = Object.freeze({
-  TITS: Object.freeze([`( • )( • ) `, ` ( • )( • )`]),
+  TITS: Object.freeze([` ( • )( • ) `, ` ( • )( • ) `]),
   PENISES: Object.freeze([`- - - C===8 `, ` 8===D - - -`]),
 });
 
