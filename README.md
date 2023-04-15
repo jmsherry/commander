@@ -27,3 +27,10 @@ Because of:
   },
 ```
 in package.json. If you `npm i -g .` when in the same folder as this `README.md` you can do `humbler decorate boris.txt boris --cocks` without the need to execute with node! If I put this to npm you could do that install too, or use npx!
+
+---
+## Shell.js
+
+I've also included an example from shell.js that lets you write javascript to run bash commands easier. (Repo: <https://www.npmjs.com/package/shelljs>)
+
+After `npm i -g .` you can just do `shelljs`, otherwisse do `node ./shell-example.js`
