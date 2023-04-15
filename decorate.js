@@ -3,6 +3,8 @@
 import { Command } from "commander";
 import fs from "fs";
 
+const VERSION = '1.0.0';
+
 const ASCII_ART = Object.freeze({
   TITS: Object.freeze([` ( • )( • ) `, ` ( • )( • ) `]),
   PENISES: Object.freeze([`- - - C===8 `, ` 8===D - - -`]),
@@ -13,7 +15,9 @@ const program = new Command();
 program
   .name("text-decoration-util")
   .description("CLI to add some balls to a text file!!")
-  .version("1.0.0");
+  .option('-v', 'version')
+  .version(VERSION)
+  .action(_ => console.log(VERSION));
 
 program
   .command("decorate")
